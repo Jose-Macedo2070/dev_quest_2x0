@@ -1,0 +1,99 @@
+/* -------------------------------------- */
+/* ------------ TEXT ALIGN -------------- */
+/* -------------------------------------- */
+.alinhado-esquerda {
+    text-align: left;
+}
+
+.alinhado-direita {
+    text-align: right;
+}
+
+.alinhado-centro {
+    text-align: center;
+}
+
+.alinhado-justificado {
+    text-align: justify;
+}
+
+/* -------------------------------------- */
+/* ----------- TEXT TRANsFORM ----------- */
+/* -------------------------------------- */
+
+.maiuscula {
+    text-transform: uppercase;
+}
+
+.minuscula {
+    text-transform: lowercase;
+}
+
+.capitalizado {
+    text-transform: capitalize;
+}
+/* Torna toda primeira letra de cada palavra como maiuscula */
+
+/* -------------------------------------- */
+/* --------- TEXT DECORATION ------------ */
+/* -------------------------------------- */
+
+.sublinhado {
+    text-decoration: underline;
+}
+/*coloca um traço abaixo de todo texto */
+
+.linha-sobreposta {
+    text-decoration: line-through;
+}
+/* coloca uma linha por cima de todo texto */
+
+.sem-text-decoration {
+    text-decoration: none;
+}
+/* retira qualquer tipo de formatações pré colocadas */
+
+/* -------------------------------------- */
+/* --------- LETTER SPACING ------------- */
+/* -------------------------------------- */
+
+.altura-entre-linhas {
+    line-height: 40px;
+  }
+  /* serve para ajustar a altura das linhas dentro do texto */
+
+/* -------------------------------------- */
+/* --------- SOMBRA NO EXTO ------------- */
+/* -------------------------------------- */
+
+.sombra-de-texto {
+    text-shadow: 10px 10px 1px #808080;
+  }
+  /* serve para gerr uma sombra do texto que está escrito, o primeiro valor altera a distancia do começo do texto, o segundo altera a distancia de cima para baixo e o terceiro altera o desfoque em relação a leitura da sombra do texto. */
+
+/* -------------------------------------- */
+/* --------------- GERAL  --------------- */
+/* -------------------------------------- */
+.fundo-alinhamento {
+    padding: 20px;
+    background-color: #D1C4E9;
+}
+
+.fundo-transform {
+    padding: 20px;
+    background-color: #C8E6C9;
+}
+
+.fundo-decoration {
+    padding: 20px;
+    background-color: #FFF9C4;
+}
+
+.fundo {
+    padding: 20px;
+    background-color: #ccc;
+}
+
+html {
+    font-size: 24px;
+}

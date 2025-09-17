@@ -1,0 +1,20 @@
+img {
+width: 200px;
+margin-top: 50px;    
+}
+
+img.scale {
+    transform: scale(2, 1.5);
+}
+/* serve para alterar a escala da imagem ou do elemento, quando colocado apenas o "scale" sem especificar o eixo o primeiro numero altera o eixo "x" e o segundo altera o eixo "y"  */
+
+img.rotate {
+    transform: rotate(45deg);
+}
+/* serve para rotacionar uma  imagem ou um elemento, quando colocado apenas o "rotate" ele apenas aplica o efeito de rotação na imagem, "deg" vem da tradução de graus no ingles  */
+
+img.translate{
+ 
+    transform: translate(50px, 20px);
+}
+/* serve para movimentar a imagem ou o elemento tanto na vertical quanto na horizontal, quando colocado apenas o "translate" sem especificar o eixo o primeiro numero altera o eixo "x" e o segundo altera o eixo "y"  */

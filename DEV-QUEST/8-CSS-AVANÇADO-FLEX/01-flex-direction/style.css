@@ -1,0 +1,30 @@
+
+.row{
+  display: flex;
+  flex-direction: row;
+}
+/* O padrão do flex-direction é row, os elementos ficam dispostos em uma unica linha.*/
+
+/* Para que o flex funcione as propriedades são aplicadas no container pai para serem vistas no filho */
+
+.row-reverse{
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+/* Dispõe os elementos em uma linha unica mas com a ordem invertida, inverte o inicio do eixo principal. */
+
+.column{
+  display: flex;
+  flex-direction: column;
+}
+
+/* Dispõe os elementos em uma unica linha na vertical, em coluna */
+
+
+.column-reverse{
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+/* Dispõe os elementos em uma linha unica vertical mas com a ordem invertida, inverte o inicio do eixo principal. */

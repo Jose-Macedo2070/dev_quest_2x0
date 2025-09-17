@@ -1,0 +1,33 @@
+
+/* order: define a ordem dos flex-items, é usada para modificar a ordem dos elementos html, filhos de um container, por padrão o valor é 0, ele não tem valores fixos predefinidos, qualqer número inteiro correspondente a um item vai ser modificado, se ele possuir um valor maior, então ele ficará mais para direita, quanto menor mais pra esquerda ele ficará. */
+/* flex-items sempre são aplicados no filho. */
+
+
+.container {
+  display: flex;
+}
+
+.flex {
+  flex: 1;
+}
+
+.order-0 {
+  order: 0;
+}
+
+.order-1 {
+  order: 1;
+}
+
+.order-2 {
+  order: 2;
+}
+
+.order-3 {
+  order: 3;
+}
+
+.order-4 {
+  order: 4;
+}
+

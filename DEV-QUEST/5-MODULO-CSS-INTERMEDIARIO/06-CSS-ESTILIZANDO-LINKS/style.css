@@ -1,0 +1,23 @@
+a {
+    cursor: progress;
+    /* serve para mudar a imagem da seta quando vai clicar em um link   */
+    margin: 20px;
+    padding: 10px;
+}
+
+a:visited {
+    color: orange;
+    /* serve para alterar a cor de um link que já foi visitado*/
+}
+
+a:active {
+    color: red
+    /* altera a cor quando estamos clicando*/
+}
+
+
+a:hover {
+    background-color: red;
+    color: white;
+    /*altera quando estamos passando por cima do link*/
+}

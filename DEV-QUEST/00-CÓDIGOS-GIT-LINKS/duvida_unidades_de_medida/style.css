@@ -1,0 +1,71 @@
+/* 🎨 Estilo base */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    margin-bottom: 30px;
+}
+
+.box {
+    display: inline-block;
+    color: white;
+    font-weight: bold;
+    margin: 10px;
+    padding: 10px;
+}
+
+/* 1️⃣ PX (fixo) */
+.px {
+    background: #3498db;
+    width: 200px;
+    height: 100px;
+}
+
+/* 2️⃣ % (relativo ao body) */
+.percent {
+    background: #2ecc71;
+    width: 50%;
+    height: 100px;
+}
+
+/* 3️⃣ EM (relativo ao font-size do pai) */
+.em {
+    background: #e67e22;
+    font-size: 20px; /* base */
+    width: 20em;     /* 20 x 20px = 400px */
+    height: 5em;     /* 5 x 20px = 100px */
+}
+
+/* 4️⃣ REM (relativo ao html) */
+html {
+    font-size: 16px; /* base para rem */
+}
+.rem {
+    background: #9b59b6;
+    width: 20rem;   /* 20 x 16px = 320px */
+    height: 5rem;   /* 5 x 16px = 80px */
+}
+
+/* 5️⃣ VW (1% da largura da tela) */
+.vw {
+    background: #f1c40f;
+    width: 50vw; /* metade da largura da tela */
+    height: 10vw;
+}
+
+/* 6️⃣ VH (1% da altura da tela) */
+.vh {
+    background: #e74c3c;
+    width: 30vh;
+    height: 30vh;
+}
+
+/* 7️⃣ VMIN (menor lado da tela) */
+.vmin {
+    background: #1abc9c;
+    width: 20vmin;
+    height: 20vmin;
+}

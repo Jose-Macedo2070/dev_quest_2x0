@@ -1,0 +1,19 @@
+html{
+    background-color: #ccc;
+}
+/* 1 em é = a 16 px */
+/* quando não tiver nenhuma base de medida o padrão é ter 1 em */
+body{
+    background-color: blueviolet;
+    width: 50%;
+}
+
+.pai{
+    background-color: #ea80fc;
+    width: 50%;
+}
+
+.filha{
+    background-color: #1de9b6;
+    width: 50%;
+}

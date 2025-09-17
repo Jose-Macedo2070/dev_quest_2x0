@@ -1,0 +1,57 @@
+
+
+
+.flex-start {
+	display: flex;
+	justify-content: flex-start;
+	flex-direction: row;
+}
+
+/* flex-start é o padrão do justify-content, serve para alinhar os itens do container no inicio do eixo principal */
+
+
+.flex-end {
+	display: flex;
+	justify-content: flex-end;
+	flex-direction: row;
+}
+
+/* flex-end, serve para alinhar os itens do container no final do eixo principal */
+
+.center {
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+}
+
+/* Center, serve para alinhar os itens do container no meio do continer ao longo eixo principal */
+
+.space-between {
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+}
+
+/* Serve para distribuir os nossos itens de acordo com o espaço disponivel do container ao longo do eixo principal */
+
+.space-around {
+	display: flex;
+	justify-content: space-around;
+	flex-direction: row;
+}
+
+/* Serve para distribuir o espaço ao redor dos itens do container ao longo do eixo principal */
+
+.space-evenly {
+	display: flex;
+	justify-content: space-evenly;
+	flex-direction: row;
+}
+
+/* Serve para distribuir os itens de forma uniforme entre eles ao longo do eixo principal*/
+
+.container.space-around div,
+.container.space-evenly div,
+.container.space-between div {
+	margin: 0;
+}

@@ -1,0 +1,44 @@
+/* seletor:pseudo-classes{
+    propriedade: valor;
+    Elas servem para escrevermos menos classes em nosso código
+} */
+
+p:first-child {
+    color: red;
+
+}
+
+/*serve para estilizar apenas o primeiro elemento filho de um elemento pai */
+
+p:last-child {
+    color: red;
+}
+
+/*serve para estilizar apenas o ultimo elemento filho de um elemento pai */
+
+p:not(.padrao) {
+    color: blue;
+}
+
+/*serve para negar uma estilização prévia se colocando acima dela, todos que não tiverem a classe selecionada dentro do parentezes tera a cor toracada para azul segundo o exemplo acima*/
+
+/* li:nth-child(odd) {
+    color: red;
+} */
+
+/*serve para selecionar elementos especificos dentro de elementos irmãos, e tem argumentos proprios como:
+-o "odd" que muda apenas impares;
+-o "even" para os pares; 
+-o "3n" que altera com um espaçamento de 3 em 3;
+pode ser colocado o numero específico do elemento que quiser;
+-o "n+ o numero escolhido" nesse caso a partir do numero escolhido vai valer a estilização antes dele não funcionará;*/
+
+li:nth-last-child(1) {
+    color: red;
+}
+/* mesma coisa do anterior mas ele tem o sentindo inverso */
+
+p:only-child{
+color: red;
+}
+/* serve para selecionar elementos especificos que não tenham outros elementos irmãos  */

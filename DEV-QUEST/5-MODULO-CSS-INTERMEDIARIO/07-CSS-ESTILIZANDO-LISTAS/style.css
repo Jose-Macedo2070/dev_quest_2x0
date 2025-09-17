@@ -1,0 +1,14 @@
+ul {
+    /* list-style-type: none;
+    serve para tirar ou mudar o icone que fica na frente da lista
+    list-style-image: url('./images/github.png');*/
+    /*serve para clocar uma imagem como icone da lista*/
+    list-style: square inside url('./images/github.png');
+}
+
+/*outras tags podem ser usadas ao mesmo tempo por ex.: se for colocado apenas "list-style: square", ele gera um icone de quadrado mas se colocarmos a "url" ele deixa de ser o icone quadrado e vira o que escolhemos e tambem temos a mesma função que dá pra colocarmos o icone dentro de um borda e da pra fazer igual nas outras estilizações por ex.: list-style: square inside url('./images/github.png'), dessa forma, inside para alterar a posição, square para gerar outro icone e a url para colocar o nosso icone.*/
+
+
+ul li {
+    border: 1px solid black
+}

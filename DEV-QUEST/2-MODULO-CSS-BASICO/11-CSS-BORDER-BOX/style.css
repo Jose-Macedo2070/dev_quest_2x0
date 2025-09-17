@@ -1,0 +1,18 @@
+div {
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    border: 10px solid green;
+}
+
+.com-border-box {
+    background-color: aquamarine;
+    box-sizing: border-box;
+}
+/* com o border border box o o padding e o border saem do cálculo final da página */
+    
+.sem-border-box{
+    background-color: brown ;
+}
+/* sem o border box o cálculo ao invés de ser 100 x 100 que seriam os valores de width e heigth passam a ser 140 x 140 por causa do pading de do border que são cálculados duas vezes por causa da quantidade de lados: largura + padding esquerda + padding direita + border esquerda + border direita = largura total do elemento e ainda tem a altura que é a mesma coisa trocando o da esquerda e direita por baixo e cima
+ficando em valores: 100 + 10 + 10 + 10 + 10 = 140  */

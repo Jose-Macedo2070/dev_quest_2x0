@@ -1,0 +1,13 @@
+p{
+    padding: 20px;
+    margin: 40px;
+}
+/* tambem poderia ser feito colocando uma classe nova chamada classe modificadora colocando uma classe nova */
+
+.paragrafo-1{
+    background-color:#f30000;
+}
+
+.paragrafo-2{
+    background-color:#ff009d ;
+}

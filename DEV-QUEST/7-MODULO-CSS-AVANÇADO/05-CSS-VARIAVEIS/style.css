@@ -1,0 +1,35 @@
+:root {
+    --cor-padrao: aqua;
+    --tamanho-de-fonte-padrao: 20px;
+}
+
+/* aqui as varáveis foram criadas com as orientções que queriamos agora basta liga-las a propriedade que quisermos com o valor "var(nome da variavel)" 
+EX.:   
+seletor {
+color: var(--cor-padrao);
+font-size: var(--tamanho-de-fonte-padrao);
+} 
+no exemplo anterior foram colocadas as variaveis criadas na raiz global "root" para o que foram designadas no caso "--cor-padrao" seria em color, igual se quizessemos um estilo de fonte padrão.*/
+
+
+h2 {
+    color: var(--cor-padrao);
+    font-size: var(--tamanho-de-fonte-padrao);
+}
+
+h3 {
+    color: var(--cor-padrao);
+    font-size: var(--tamanho-de-fonte-padrao);
+}
+
+p {
+    color: var(--cor-padrao);
+    font-size: var(--tamanho-de-fonte-padrao);
+}
+
+span {
+    color: var(--cor-padrao);
+    font-size: var(--tamanho-de-fonte-padrao);
+}
+
+/* se colocrmos uma virgula dentro dos parenteses podemos colocar uma cor ou um tamanho de fonte caso a variavel não funcione por causa do problema de compatibilidade */

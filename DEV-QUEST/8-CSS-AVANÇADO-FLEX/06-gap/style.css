@@ -1,0 +1,12 @@
+
+/* gap: propriedade do css ultilizada para definir o espaçamento de todos os itens de um container, gap tambem é um shorthand para column-gap e row-gap, então podemos passar dois valores nele, o primeiro valor é o column-gap que vai funcionar quando o flex-direction estiver como column e o segundo vai ser o row-gap que vai valer quando o flex-direction estiver em row mas apenas de um iten para o outro.*/
+
+
+
+
+.gap {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+

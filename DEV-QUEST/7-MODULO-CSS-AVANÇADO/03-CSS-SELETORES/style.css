@@ -1,0 +1,76 @@
+h1 {
+    color: green;
+}
+
+/* seletor mais comum o de tag- "tag { propriedade: valor}" */
+
+.paragrafo {
+    color: blue;
+}
+
+/* seletor de classe- ".nome-da-classe {propriedade: valor}"  */
+
+#menu {
+    color: aqua;
+}
+
+/* seletor de id- "#nome-do-id {propriedade: valor}"  */
+
+* {
+    padding: 0;
+    font-size: 20px;
+}
+
+/* o seletor "*" serve para estilizar todos os elemntos dentro de um html nisso ficaria- "* {propriedade: valor} */
+
+.titulo.vermelho {
+    color: red
+}
+
+.titulo.laranja {
+    color: orange
+}
+
+/* o caso de estilização com duas classes no html elas são separadas apenas por um espaço, pois se forem colocados traços "-" se tornam uma classe só, nisso quando queremos fazer uma estilização no css e queremos ser mais específicos quanto a qual queremos estilizar chamamos as duas classes colocadas uma após a outra separdas pelo ponto "." .
+logo ficamos com a seguinte forma- .classe1.classe2 {propriedade: valor} */
+
+p,
+span {
+    font-size: 20px;
+}
+
+/* são dois seletores comuns separados por uma virgula pra conseguirmos estilizar os dois ao mesmo tempo */
+
+.sobre .tex {
+    color: palevioletred;
+}
+
+/* nesse caso as classes são uma pai e uma filha e são ultilizadas de forma separada para dar especificidade */
+
+
+
+div>p {
+    color: royalblue;
+}
+
+/* pai > filho {
+    propriedade: valor
+} */
+
+/* serve para selecionar todos os filhos que estão dentro da tag pai especifeica */
+
+div+p {
+    color: red;
+}
+
+/* escolhida + a que vier depois da escolhida {
+    propriedade: valor
+} */
+
+/* serve para selecionar qualquer tag  que venha depois da escolhida, no caso a escolhida foi uma "div" logo qualquer "p" que vier logo depois de uma div e for o primeiro elemento vai ser afetado pela estilizção, 
+OBS: TEM QUE SER A PRIMEIRA TAG LOGO APÓS A ESCOLHIDA.*/
+
+a[targe=_blank]{
+    color:red
+}
+/* seletor por atributo- primeiro coloca-se a tag inicial, seja tag, id ou class, depois couchete "[]" dentro dele o atributo e o valor, ficando- tag[atributo=valor]{propriedade:valor} */

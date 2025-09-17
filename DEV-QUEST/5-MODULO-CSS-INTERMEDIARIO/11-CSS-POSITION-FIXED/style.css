@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+}
+
+body {
+    height: 1500px;
+    padding-top: 67px;
+}
+
+header {
+    font-size: 24px;
+    position: fixed; /*serve para deixar algo fixo e cria uma camada apenas para ele como se fosse o absolut.*/
+    background-color: lightblue;
+    width: 100%;
+    padding: 20px;
+    top: 0;
+}

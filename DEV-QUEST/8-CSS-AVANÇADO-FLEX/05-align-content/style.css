@@ -1,0 +1,75 @@
+/* align-content: alinha as linhas do container em relação ao eixo que estiver na vertical, Só funciona se tiver mais de uma linha de itens, pra isso o flex-wrap tem que ser wrap ou wrap-reverse. */
+
+/* o align-content é bem parecido com o align-items e com o justify-content, ele é considerado  uma mistura os dois por isso o nome align-content, atua ao longo do eixo transversal. */
+
+
+.flex-start {
+  display: flex;
+  align-content: flex-start;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+/* Alinha os itens no inicio do container */
+
+.flex-end {
+  display: flex;
+  align-content: flex-end;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+/* Alinha os itens no fim do container */
+
+
+.center {
+  display: flex;
+  align-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+/* Alinha os itens no centro do container */
+
+
+.space-between {
+  display: flex;
+  align-content: space-between;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+/* Vai distribuir igualmente os nossos itens de acordo com o espaço disponivel dentro do container, ao longo do eixo transversal. */
+
+.space-around {
+  display: flex;
+  align-content: space-around;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+/* Vai espaçar os nossos itens de forma  com que eles tenham o mesmo espaço ao redor de si mesmos tanto em cima quanto em baixo, ao longo do eixo transversal. */
+
+
+.space-evenly {
+  display: flex;
+  align-content: space-evenly;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+
+/* Vai distribuir igualmente os nossos itens do container de forma qe o espaço entre os itens e as bordas do cotainer tenham o mesmo espaço entre os próprios itens, ao longo do eixo transversal. */
+
+
+
+
+.stretch {
+  display: flex;
+  align-content: stretch;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+/* temos que remover a altura fixa para que o stretch funcione, ele faz os itens ocuparem o máximo de espaço possivel do container ao longo do eixo transversal */
+

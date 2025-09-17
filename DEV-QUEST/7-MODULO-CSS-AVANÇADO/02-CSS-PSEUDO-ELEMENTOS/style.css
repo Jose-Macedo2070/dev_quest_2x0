@@ -1,0 +1,35 @@
+/* forma de um pseudo elemento
+sletor::pseudo elemento{
+    propriedade: valor
+} */
+
+#letter::first-letter{
+    color: aqua;
+}
+/* modifica apenas a primeira letra do elemento e não funciona em elementos que sejam display in-line */
+
+#line::first-line{
+    color:aqua;
+}
+/* modifica apenas a primeira linha do elemento e não funciona em elementos que sejam display in-line */
+
+li::marker{
+    color: red;
+    font-size: 23px;
+}
+/* modifica os marcadores de uma lista*/
+
+
+
+h2::before{
+    content: "teste 123 "
+    
+    
+}
+/* insere uma conteudo antes do conteudo do elemento que estamos estilizando */
+
+h2::after{
+    content: "teste 123 ";
+}
+/* insere uma conteudo depois do conteudo do elemento que estamos estilizando */
+

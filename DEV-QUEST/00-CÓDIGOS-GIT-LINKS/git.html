@@ -1,0 +1,38 @@
+para configurar um nome: git config --global user.name "Jose Macedo"
+
+para configurar um email: git config --global user.email "josemacedowork@gmail.com"
+
+para ver configurações: git config --list
+para começar a configuração de um git: git init
+
+para trocar o branch do arquivo de "master" para "main" :git branch -M main
+
+depois no proprio github copiar o codigo do git criado TEM QUE SER EM HTTPS: git remote add origin https://github.com/Jose-Macedo2070/AULA-TABELA.git
+
+para ver se o git remote está funcionando: git remote -v
+
+para ver o status do arquivo (untracked, unmodified, modified, staged):git status
+
+para adicionar um git: git add "nome do arquivo"
+
+para comitar o git: git commit -m "digite a mensagem aqui" para colocarmos uma mensagem
+
+Ordem de processos dos codigos:
+
+untracked ---> staged ---> unmodified
+
+de untracked para staged: git add "nome do arquivo" ou git add . (que pega todos os arquivos)
+
+de staged para unmodified: git commit -m 
+
+caso voce modifique um arquivo ele vai sair de de unmodified para modified ai precisa fazer o processo novamente de git add e git commit -m
+
+o ultimo passo seria o git push que seria levar os arquivos para o github: git push -u origin main
+
+
+caso queira pegar os arquivos para usar em outra máquina deve usar o git clone e o código da pasta que quer, lembrando de abrir o bash na reparição certa como area de trabalho e tal.
+ex:
+
+git clone https://github.com/Jose-Macedo2070/AULA-TABELA.git
+
+git pull origin main --rebase: serve para baixar as atualizações da pasta git que esteja na máquina que foi feita o clone, para não dar conflito entre tudo novo a ser baixado.

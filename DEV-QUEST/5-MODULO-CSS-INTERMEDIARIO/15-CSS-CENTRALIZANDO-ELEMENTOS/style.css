@@ -1,0 +1,63 @@
+/* ---- ESTILOS GERAIS ---- */
+body {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: white;
+}
+
+.container {
+    background-color: lightgray;
+    height: 380px;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.btn {
+    width: 250px;
+    height: 50px;
+    background-color: lightseagreen;
+    color: white;
+    font-size: 1.2em;
+}
+
+/* ---- ESTILOS GERAIS ---- */
+
+.texto-centralizado-1 {
+    width: 250px;
+    height: 250px;
+    background-color: orange;
+    text-align: center;
+    margin-bottom: 20px;
+    line-height: 250px;
+    /*serve para criar uma altura pra linha, a dica é colocar a altura da linha com o mesmo valor da altura do elemento no caso o "height" */
+}
+
+.texto-centralizado-2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    /* transform: translateY(-50%);
+    transform: translateX(-50%); */
+    transform: translate(-50%, -50%);
+    /*essa é a vesão shorthand do codigo comentado acima onde o primeiro valor equivale ao eixo y e o segundo ao eixo x, é ultilizada a "position: absolute" para podermos colocar as posições top que afasta do topo e left que afasta da esquerda.*/
+}
+
+.alinhado-margin-auto {
+    margin: auto;
+    /*Serve para darmos uma margem automatica ao elemento mas não funciona em "display inline level"*/
+    display: block;
+}
+
+.alinhado-absolute {
+    position: absolute;
+    /*normalmente o "margin auto" não funcionaria por causa do "position absolut mas como zeramos todos os lados do elemento ele consegue calcular os lados e acaba colocando ele perfeitamente alinhado tanto na vertical quanto na horizontal"*/
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.container-text-align {
+    text-align: center;
+}

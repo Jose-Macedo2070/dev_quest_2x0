@@ -1,0 +1,78 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
+
+
+
+
+
+body {
+    background-color: hsl(218, 23%, 16%);
+
+}
+
+main {
+    font-family: 'Manrope';
+    font-weight: 800;
+    height: 100vh;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.container_principal {
+    background-color: hsl(217, 19%, 24%);
+    color: hsl(193, 38%, 86%);
+    width: 310px;
+    height: 200px;
+    padding: 10px;
+    border-radius: 10px;
+
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+
+    gap: 13px;
+}
+
+
+.titulo {
+    color: hsl(150, 100%, 66%);
+    font-size: 9px;
+    margin-top: 40px;
+    
+}
+
+.texto_principal {
+    font-size: 16px;
+    padding: 10px;
+
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+
+.container_dado {
+    display: flex;
+
+    background-color:hsl(150, 100%, 66%) ;
+    padding: 10px;
+    border-radius: 100px;
+
+
+}
+.dado {
+    height: 12px;
+    
+}
+
+
+.divisor {
+   height: 9px;
+    
+}

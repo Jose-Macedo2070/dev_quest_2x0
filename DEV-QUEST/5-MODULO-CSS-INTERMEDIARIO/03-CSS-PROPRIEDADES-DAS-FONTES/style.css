@@ -1,0 +1,17 @@
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+p {
+    font-family: 'Courier New', Courier, monospace;
+    
+    font-size: 24px;
+
+    font-weight: 100;
+    /* os valores do "font-weight" mudam par dar peso a fonte temos o valor bold que já é negrito massss se colocarmos numeros para definir isso tem uma tabela de peso como:
+    de 100 a 400 - estilo regular
+    de 500 a 700 - bold
+    de 700 a 900 - extra-bold */
+}

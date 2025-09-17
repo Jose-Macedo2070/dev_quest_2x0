@@ -1,0 +1,46 @@
+p {
+    color: coral;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+
+.bg {
+    background-color: lightgreen;
+    background-image: url('./images/cat.png');
+    /* padding: 100px; */
+}
+
+.bg-image {
+    width: 513px;
+    height: 340px;
+}
+
+.bg-repeat {
+    background-repeat: no-repeat;
+    /*é uma propriedade que impede a imagem de ficar repetindo e a cola no topo e junto a borda, mas podemos colocar tambem o "repeat-y" para fazermos ela se repetir para baixo e o "repeat-x" para o lado.*/
+    height: 540px;
+}
+
+.bg-size-cover {
+    background-size: cover;
+    /* faz com que a imagem cubra todos os cantos da estilização mas quanto mais passar de sua altura e largura original mais ela perderá qualidade. */
+    height: 540px;
+}
+
+.bg-fixed {
+    background-attachment: fixed;/* serve para colocar a imgem no fundo, o "fixed" deixa a imagem fixa de qualquer forma, o comun do "background-attachment" é vir com a função "scroll" que faz ele agir junto com a barra de scroll.*/
+    height: 540px;
+}
+
+.bg-position {
+    background-position: bottom right; /* Define a posição que a imagem vai se manter, isso no primeiro valor o segundo valor por padrão é "center"*/
+    background-repeat: no-repeat;
+    height: 540px;
+}
+
+.bg-curto {
+    height: 540px;
+
+    background: black url(./images/cat.png) no-repeat right top; /*Nesse exemplo temos a forma curta onde ultilizamos apenas uma tag repassando os valores dela o primeiro "color" o segundo a "url da imagem" o terceiro o "repeat" e o quarto passamos o "position", sempre que puder é melhor fazer dessa forma. */
+}

@@ -1,0 +1,4 @@
+img {
+  float: left;/*utilizado para flutuar elementos tirando eles do fluxo comum*/
+  margin-right: 15px;
+}
