@@ -1,0 +1,104 @@
+/* 1 - Seletores básicos
+
+Tipo: seleciona pelo nome da tag.*/
+
+p {
+    color: red;
+}
+
+
+
+/* 2 - Classe (.nome): seleciona elementos que possuem uma classe específica. */
+
+.destaque {
+    font-weight: bold;
+
+}
+
+
+/* 3 - ID (#nome): seleciona um único elemento com o atributo id. */
+
+#especial {
+    background-color: yellow;
+}
+
+/* 4 - Seletores de agrupamento
+Permitem aplicar a mesma regra a vários seletores: */
+
+.destaque, h2, h3 { 
+    font-family: Arial, sans-serif;
+    color: purple;
+}
+
+
+/* 5 -  Seletores de descendência e relacionamento 
+Descendente permitem pegar tags específicas que atenderem as especificidades:*/
+
+div p { /* Seleciona todos os <p> dentro de <div> */
+    font-size: 18px;
+    font-style: italic;
+}
+
+
+
+/* 6 - Filho direto (>): */
+
+div > p { /* Seleciona apenas os <p> que são filhos diretos de <div> */
+    color: green;
+}
+
+
+/* 7 - Adjacente (+): */
+
+h2 + p { /* Seleciona o primeiro <p> imediatamente após um <h2> */
+    margin-top: 0;
+}
+
+
+
+/* 8 - Irmão geral (~):*/
+ 
+h2 ~ p { /* Seleciona todos os <p> que são irmãos de um <h2> */
+
+    border: solid black 1px;
+}
+
+
+
+/* 9 -  Seletores de atributo
+Baseados em atributos HTML: */
+
+a[target="_blank"] { /* Seleciona links que abrem em nova aba */
+    color: rgb(0, 255, 234);
+}
+
+input[type="text"] { /* Seleciona campos de texto */
+    border: 2px solid rgb(247, 0, 255);
+}
+
+
+
+/* 10. Pseudo-classes
+Selecionam estados ou condições especiais: */
+
+a:hover { /* Estiliza links quando o mouse passa por cima */
+    color: orange;
+}
+
+p:first-child { /* Estiliza o primeiro <p> dentro de um pai */
+    font-size: 40px;
+}
+
+
+/* 11. Pseudo-elementos
+Estilizam partes específicas de um elemento: */
+
+p::first-letter { /* Estiliza a primeira letra de cada <p> */
+    font-size: 200%;
+    color: blue;
+}
+
+p::first-line { /* Estiliza a primeira linha de cada <p> */
+    font-variant: small-caps;
+    color: brown;
+}
