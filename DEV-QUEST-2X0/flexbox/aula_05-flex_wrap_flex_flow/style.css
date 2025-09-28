@@ -1,0 +1,35 @@
+
+
+/* Flex-wrap: define se os itens do container devem ou não quebrar a linha, movendo eles ao longo do eixo transversal, quando não tem mais espaço ele gera a quebra de linha. */
+
+
+
+.nowrap {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+}
+
+/* nowrap serve para impedir a quebra de linha e ele é o valor padrão do flex */
+
+.wrap {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+/* wrap: permite que um item quebre pra baixo, para a próxima linha quando não há mais espaço dispnivel dentro do container */
+
+
+.wrap-reverse {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    flex-direction: column;
+}
+
+/* funciona igual ao wrap só que para o lado oposto */
+
+/* flex-flow:: serve para colocarmos tanto o direction quanto o wrap ao mesmo tempo em shorthand, passando o direction como primeiro paramêtro e o wrap sendo o segundo 
+dessa forma:
+
+flex-flow: row wrap
+*/

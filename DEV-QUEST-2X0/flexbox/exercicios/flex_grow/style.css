@@ -1,0 +1,26 @@
+.filhos {
+    background-color: red;
+    margin: 20px;
+    border: solid 1px black;
+    text-align: center;
+    font-weight: 700;
+    flex-grow: 1;
+}
+
+
+.filhos-1 { 
+    background-color: aqua;
+    margin: 20px;
+    border: solid 1px black;
+    text-align: center;
+    font-weight: 700;
+    flex-grow: 2;
+}
+
+.container {
+    display: flex;
+    border: solid 6px black;
+    height: 700px;
+    width: 400px;
+    flex-direction: row;
+}

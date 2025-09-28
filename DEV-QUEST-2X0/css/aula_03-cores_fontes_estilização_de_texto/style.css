@@ -1,0 +1,11 @@
+h1 {
+    color: #2E8B57; /* Essa forma de escolher a cor é chamda hexadecimal e ela serve para escolher cores com mais opções */
+}
+
+p {
+    color: rgb(0, 0, 0); /* Essa forma de escolher a cor é chamda RGB e ela serve para escolher o primeiro valor para vermelho o segundo para verde e o terceiro para azul, tambem temos a opção rgba, onde o a se torna a opacidade da cor. */
+}
+
+body {
+    font-family: "Inter_google_fonts", sans-serif; /* Aqui estamos aplicando a fonte que importamos do google fonts */
+}

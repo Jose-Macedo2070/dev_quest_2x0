@@ -1,0 +1,17 @@
+/* Flex: é uma shorthand para as tres propriedades, grow, basis e shrink, é ultilizado mais assim nos flex items.*/
+
+
+
+.container {
+  display: flex;
+}
+
+.flex-0 {
+  flex: 0;
+}
+
+.flex-1 {
+  flex: 0 1 150px;
+}
+
+/* sendo assim a primeira propriedade se refere ao grow, a segunda propriedade seria o shrink e a terceira o basis, se o valor das outras não foram informados elas vão ficar com o valor padrão.  */

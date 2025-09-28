@@ -1,0 +1,26 @@
+
+/* flexbox-items: são as propriedades que aplicamos nos filhos ao invés dos pais como acontece nos flexbox-containers */
+
+.container {
+  display: flex;
+}
+
+.grow-0 {
+  flex-grow: 0;
+}
+
+/* O grow é uma propriedade que define a capacidade de um elemento crescer de tamanho e ocupar mais espaço dentro do flexbox container, os valores dele são numeros inteiros que vão de 0 a 3, quanto maior o valor mais o item com ele terá prioridade crescer e quanto menor o valor menos espaço esse item terá dentro do flexcontainer, par funcionar precisamos colocar display flex no pai e o grow no filho. */
+
+/* Se o conteudo do flex-items for maior do que o que o grow dele consegue suportar ele vai anular o grow e crescer até o conteudo caber nele, a menos que se use um basis que faz o contudo diminuir para caber dentro ao invés do contrário. */
+
+.grow-1 {
+  flex-grow: 1;
+}
+
+.grow-2 {
+  flex-grow: 2;
+}
+
+.grow-3 {
+  flex-grow: 3;
+}

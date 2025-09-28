@@ -1,0 +1,41 @@
+.flex-start { /* é o valor padrão do justify-content e serve para alinhar os itens no começo ao longo do eixo principal. */
+	display: flex;
+	justify-content: flex-start;
+	flex-direction: row;
+}
+
+.flex-end { /* serve para alinhar os itens no final ao longo do eixo principal. */
+	display: flex;
+	justify-content: flex-end;
+	flex-direction: row;
+}
+
+.center { /* serve para alinhar os itens no centro ao longo do eixo principal. */
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+}
+
+.space-between { /* serve para distribuir os itens ao longo do eixo principal, com o primeiro item alinhado ao início e o último item alinhado ao final, e o espaço restante distribuído igualmente entre os itens. */
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+}
+
+.space-around { /* serve para distribuir os itens ao longo do eixo principal, com espaço igual ao redor de cada item. Isso significa que o espaço entre os itens será o dobro do espaço nas extremidades. */
+	display: flex;
+	justify-content: space-around;
+	flex-direction: row;
+}
+
+.space-evenly { /* serve para distribuir os itens ao longo do eixo principal, com espaço igual entre todos os itens, incluindo as extremidades. */
+	display: flex;
+	justify-content: space-evenly;
+	flex-direction: row;
+}
+
+.container.space-around div,
+.container.space-evenly div,
+.container.space-between div { /* estilizando as caixas para melhor visualização */
+	margin: 0;
+}

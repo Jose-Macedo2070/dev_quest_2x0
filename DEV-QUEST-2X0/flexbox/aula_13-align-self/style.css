@@ -1,0 +1,31 @@
+
+/* align-self: alinha um unico elemento ao longo do eixo transversal */
+
+
+
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.auto {
+  align-self: auto;
+}
+/* valor padrão do align-self */
+
+.flex-start {
+  align-self: flex-start; /* alinha o item ao inicio do eixo transversal */
+}
+
+.flex-end {
+  align-self: flex-end;   /* alinha o item ao final do eixo transversal */
+}
+
+.center {
+  align-self: center; /* alinha o item ao centro do eixo transversal */
+}
+
+.stretch {
+  align-self: stretch;  /* estica o item para preencher o container no eixo transversal, só funciona se não tiver largura e altura fixa*/
+}

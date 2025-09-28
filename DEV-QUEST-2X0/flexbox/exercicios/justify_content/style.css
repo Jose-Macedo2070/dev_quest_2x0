@@ -1,0 +1,17 @@
+div.container {
+    display: flex;
+    border: solid 6px black;
+    height: 700px;
+    width: 700px;
+    /* justify-content: center; */
+    justify-content: space-between;
+}
+.filhos {
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    /* margin: 20px; */
+    border: solid 1px black;
+    text-align: center;
+    font-weight: 700;
+}

@@ -1,0 +1,64 @@
+/* Align-items: é uma propriedade de flex container que serve para alinhar os itens no eixo transversal. */
+
+/* Dá pra pensar que ele é como se fosse um justify-content só que para o eixo transversal ao invés do eixo principal. */
+
+
+.flex-start {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+}
+
+/* O align-items alinha os itens do container ao longo do eixo transversal, ou seja, na vertical quando o flex-direction for row, a propriedade flex-start alinha os itens no inicio do container  */
+
+.flex-end {
+    display: flex;
+    align-items: flex-end;
+    flex-direction: row;
+}
+
+/* a propriedade flex-end alinha os itens no final do container, lembrando que é no eixo transversal que fica na vertical enquanto o flex direction for row. */
+
+
+/* se mudarmos o flex-direction para column o eixo transversal passa a ser na horizontal, e o flex-end passa a se basear nele */
+
+/* EX.: TIRE A IDENTAÇÃO PARA VER O EXEMPLO. */
+
+/* .flex-end {
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+} */
+
+.center {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+/* o valor center é o mais usado, ele alinha os itens do container no eixo transversal, lembrando que é no eixo transversal que fica na vertical enquanto o flex direction for row. */
+
+
+
+.stretch {
+    display: flex;
+    align-items: stretch;
+    flex-direction: row;
+}
+
+/* O valor stretch é o padrão do align-items e ele  estica os elementos ao longo do eixo transversal mas ele não funciona se tivermos uma altura e largura fixas,*/
+
+
+.baseline {
+    display: flex;
+    align-items: baseline;
+    flex-direction: row;
+}
+
+
+/* Alinha os itens pela linha de base do conteudo, não se aplica ao calumn, ou seja, só funciona na horizontal */
+
+ 
+.baseline div:first-child {
+    padding-top: 40px;
+}

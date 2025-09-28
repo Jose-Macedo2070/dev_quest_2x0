@@ -1,0 +1,48 @@
+/* basis: permite que os itens de um container flex tenham sempre o mesmo tamanho, independente do conteúdo dentro deles. */
+
+
+
+
+.container {
+  display: flex;
+}
+
+.grow-0 {
+  flex-grow: 0;
+}
+
+.grow-1 {
+  flex-grow: 1;
+}
+
+.grow-2 {
+  flex-grow: 2;
+}
+
+.grow-3 {
+  flex-grow: 3;
+}
+
+.basis-auto {
+  flex-basis: auto;
+}
+/* é o valor padrão do basis */
+
+.basis-0 {
+  flex-basis: 0;
+}
+/* O flex basis define que todos os itens tenham o mesmo tamanho, independntemente do conteudo dentro deles. */
+
+
+.basis-100 {
+  flex-basis: 100px;
+}
+
+.basis-200 {
+  flex-basis: 200px;
+}
+
+.basis-300 {
+  flex-basis: 300px;
+}
+

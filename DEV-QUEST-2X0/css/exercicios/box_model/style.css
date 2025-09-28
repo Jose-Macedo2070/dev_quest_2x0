@@ -1,0 +1,14 @@
+
+* {
+    box-sizing: border-box;
+}
+
+
+.caixa {
+    width: 200px;
+    height: 100px;
+    padding: 20px;
+    margin: 30px;
+    background-color: lightblue;
+    border: 3px solid blue;
+}
