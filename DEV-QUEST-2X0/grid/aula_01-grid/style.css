@@ -1,0 +1,11 @@
+.container div{
+  border: 1px solid black;
+  color: white;
+  font-size: 20px;
+  background-color: blueviolet;
+}
+
+.container{
+  display: grid; /* Define que o container será um grid, é uma propriedade do CSS que transforma um elemento HTML em um contêiner de grade, permitindo organizar seus filhos (itens) em um sistema bidimensional de linhas e colunas para criar layouts complexos e responsivos */
+  
+}
