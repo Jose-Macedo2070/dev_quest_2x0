@@ -7,5 +7,13 @@
 
 .container{
   display: grid; /* Define que o container será um grid, é uma propriedade do CSS que transforma um elemento HTML em um contêiner de grade, permitindo organizar seus filhos (itens) em um sistema bidimensional de linhas e colunas para criar layouts complexos e responsivos */
-  
+
+  grid-template-columns: repeat(4, 1fr); /* Define o número de colunas e suas larguras. No caso, quatro colunas com largura automática, podemos colocar os métodos e forma de repetição das colunas como "auto" e pra cada "auto", ele adicionará uma nova coluna, mas tambem temos uma forma mais automática de fazer isso que é utilizando a função repeat() e dentro do repeat() podemos colocar a largura que quisermos, no caso 1fr que é uma fração do espaço disponível */
+
+  grid-template-rows: repeat(2, 200px); /* Define o número de linhas e suas alturas. No caso, duas linhas com altura automática, podemos colocar os métodos e forma de repetição das linhas como "auto" e pra cada "auto", ele adicionará uma nova linha, mas tambem temos uma forma mais automática de fazer isso que é utilizando a função repeat() e dentro do repeat() podemos colocar a altura que quisermos, no caso 200px que é uma altura fixa */
+
+  /* podemos usar tambem para facilitar o short hand  
+  grid-template: repeat(2, 200px) / repeat(4, 1fr);  Define o número de linhas e colunas e suas alturas e larguras em uma única linha, no caso, duas linhas com altura de 200px e quatro colunas com largura automática */
+
+  gap: 10px; /* Define o espaçamento entre as linhas e colunas do grid, no caso, 10 pixels de espaço entre cada item do grid */
 }

@@ -1,0 +1,11 @@
+.container div {
+  border: 1px solid black;
+  background-color: blueviolet;
+  color: white;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: minmax(200px, 800px) minmax(200px, 1fr) minmax(200px, 1fr);/* 4 colunas, cada uma com largura mínima de 200px e máxima de 800px, o minmax permite que as colunas se ajustem automaticamente ao espaço disponível */
+
+} 
