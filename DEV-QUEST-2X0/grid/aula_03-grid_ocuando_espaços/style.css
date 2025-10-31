@@ -36,15 +36,33 @@
   /* Também podemos usar a versão abreviada
   grid-column: 1 / 4; e grid-column: 1 / 4; 
   
-  tambem podemos subistituir o segundo valor pelo span, que funcio*/
+  tambem podemos subistituir o segundo valor pelo span, que funciona como uma forma de apenas expandir*/
 
-  grid-column: 1 / span 3;
+  grid-column: 1 / span 2;
   grid-row: 1 / span 2;
 }
 
 
 .azul {
-  grid-column: 4 / span 3;
+  grid-column: 3 / span 3;
+}
+
+.rosa {
+  grid-column: 1 / span 2;
+}
+
+.laranja {
+  grid-column: 3 / span 2;
+  grid-row: 2 / span 3
+}
+
+.verde-escuro {
+  grid-column: 5 / span 1;
+  grid-row: 2 / span 1;
+}
+.marrom {
+  grid-column: 5 / span 1;
+  grid-row: 3 / span 1;
 }
 
 
