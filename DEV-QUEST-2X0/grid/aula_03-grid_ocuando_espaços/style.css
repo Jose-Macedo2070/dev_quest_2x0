@@ -27,6 +27,10 @@
   grid-template-columns: repeat(5, auto);
   grid-template-rows: repeat(3, auto);
   gap: 15px;
+  background-color: rebeccapurple;
+  padding: 10px;
+  width: 300px;
+  text-align: center;
 }
 
 .verde-claro {
