@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+}
+
+.container {
+    display: grid;
+    text-align: center;
+    grid-template-areas: "header header header"
+    "nave menu slider"
+    "footer footer footer";
+    gap: 5px;
+    /* height: 100vh; */
+}
+
+.header {
+    background-color: orange;
+    grid-area: header;
+}
+
+.navegation {
+    background-color: greenyellow;
+    grid-area: nave;
+}
+
+.menu {
+    background-color: pink;
+    grid-area: menu;
+}
+
+.slider {
+    background-color: yellow;
+    grid-area: slider;
+}
+
+.footer {
+    background-color: salmon;
+    grid-area: footer;
+}

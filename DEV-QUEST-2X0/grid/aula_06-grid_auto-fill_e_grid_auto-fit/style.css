@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+}
+
+.container {
+    display: grid;
+    padding: 3px;
+    gap: 10px;
+
+    /* grid-template-columns: repeat(3, minmax(200px,1fr)); Essa é a forma comum de3 como se fazer o repeat serve para repetir a propriedade em todo grid, o minmax delimita o tamanho minimo e maximo de cada coluna */
+
+    /*grid-template-columns: repeat(auto-fill, minmax(200px,1fr)); auto-fill faz com que o grid se adapte ao tamanho da tela preenchendo o maximo de colunas possiveis */
+
+    grid-template-columns: repeat(auto-fit, minmax(200px,1fr)); /* auto-fit faz com que o grid se adapte ao tamanho da tela, mas quando nao houver mais espaço ele "encaixa" os elementos, diferente do auto-fill que mantem o espaço vazio */
+ }
+ 
+
+ .container p {
+    padding: 20px;
+    border-radius: 50px;
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.1);
+ }
