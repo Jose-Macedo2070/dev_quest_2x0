@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 65.5%;
+    height: 100vh;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*XXXXXXXXXXXXXXXXXXXXXXXXXX RESET XXXXXXXXXXXXXXXXXXXXXXXXXX*/
+
+
+.cabecalho {
+    height: 11.5rem;
+    background-color: #192857;
+
+    display: flex;
+    justify-content: space-between;
+    gap: 10rem;
+}
+
+.menu_navegacao {
+    display: flex;
+    gap: 3rem;
+    margin: 5rem;
+
+}
+
+a:hover {
+    background-color: #F5F5DC;
+    color: #192857;
+    border-radius: 1rem;
+    padding: 1rem;
+}
+
+
+.logo {
+    height: 10rem;
+    border-radius: 5rem;
+    margin: 1rem;
+}
+
+
+.item {
+    font-size: 1.6rem;
+    color: #fff;
+}
+
+/*XXXXXXXXXXXXXXXXXXXXXXXXXX HEADER XXXXXXXXXXXXXXXXXXXXXXXXXX*/
+
+
+main {
+    display: flex;
+    height: 100vh;
+    /* padding: 1rem; */
+}
+
+.barra_lateral {
+    background-color: #F5F5DC;
+    display: flex;
+    flex-direction: column;
+    width: 50rem;
+    gap: 5rem;
+    font-size: 1.4rem;
+    padding: 1rem;
+}
+
+.conteudo_principal {
+    background-color: #fff;
+    font-size: 1.4rem;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+}
+
+
+
+.menu_de_cards {
+    display: flex;
+    flex-flow: row wrap;
+    font-size: 1.4rem;
+    border: 0.3rem solid #000;
+    background-color: #192857;
+}
+
+.card {
+    background-color: #F5F5DC;
+    height: 10rem;
+    width: 10rem;
+    margin: 5rem;
+    border: 0.3rem solid #000;
+    font-size: 1.4rem;
+    text-align: center;
+
+}
+/*XXXXXXXXXXXXXXXXXXXXXXXXXX MAIN XXXXXXXXXXXXXXXXXXXXXXXXXX*/
+
+
+.footer {
+    font-size: 1.4rem;
+    background-color: #F5F5DC;
+    height: 5rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+/*XXXXXXXXXXXXXXXXXXXXXXXXXX FOOTER XXXXXXXXXXXXXXXXXXXXXXXXXX*/
