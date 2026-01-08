@@ -1,22 +1,49 @@
-.filhos {
-    background-color: red;
-    width: 100px;
-    height: 100px;
-    margin: 20px;
-    border: solid 1px black;
-    text-align: center;
-    font-weight: 700;
-    flex-grow: 0;
+html {
+    font-size: 62.5%;
 }
-
-
-
 
 .container {
     display: flex;
-    border: solid 6px black;
-    height: 300px;
-    width: 700px;
-    flex-wrap: wrap;
-    flex-direction: row;
+    border: solid 0.6rem black;
+    flex-flow: row wrap;
+    gap: 2rem;
+    padding: 1rem;
+    justify-content: center;
+}
+
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: beige;
+    padding: 2rem;
+    height: 25rem;
+    gap: 2rem;
+    border: solid 0.1rem black;
+
+}
+
+img {
+    height: 8rem;
+    border-radius: 0.4rem;
+}
+
+
+a {
+    border: solid 0.1rem black;
+    border-radius: 0.5rem;
+    background-color: blueviolet;
+    color: white;
+    width: 5rem;
+    height: 5rem;
+    font-size: 1.8rem;
+    text-decoration: none;
+    padding: 0.5rem;
+}
+
+a:hover {
+    color: blueviolet;
+    background-color: white;
 }

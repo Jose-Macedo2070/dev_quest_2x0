@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.botao {
+    background-color: red;
+    text-align: center;
+    height: 50px;
+    width: 100px;
+    padding: 15px;
+    border: solid 2px black;
+}
+
+
+
+@media (max-width: 600px) {
+    .botao {
+        display: none;
+    }
+}
